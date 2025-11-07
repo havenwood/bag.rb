@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
   spec.description = 'A pure Ruby implementation of a bag (multiset) collection that tracks element occurrences'
   spec.homepage = 'https://github.com/havenwood/bag.rb'
   spec.license = 'MIT'
+  spec.required_ruby_version = '>= 3.0'
 
-  spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
   spec.metadata['rubygems_mfa_required'] = 'true'
 
